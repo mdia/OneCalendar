@@ -1,0 +1,63 @@
+@()
+<!DOCTYPE html>
+
+@**************************************************************************
+ * Copyright 2012 OneCalendar
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+**************************************************************************@
+<html>
+<head>
+    <title>One Calendar! Next features !</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" media="screen" href='@routes.Assets.at("stylesheets/mobile.css")'>
+    <link rel="stylesheet" media="screen" href='@routes.Assets.at("stylesheets/about.css")'>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=no" >
+    <link href='@routes.Assets.at("images/favicon.ico")' rel="shortcut icon">
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-31089999-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</head>
+<body>
+	<header>
+        <h1>Next Features</h1>
+        <a href="/">
+            <img src="/assets/images/OneCalendar.png" alt="OneCalendar!" title="OneCalendar!">
+        </a>
+	</header>
+    <div class="clear"></div>
+
+    <section>
+        <table border=1>
+            <tr><th>nom de la feature</th><th>statut</th></tr>
+            <tr><td>prochaine feature 1</td><td>livrée</td></tr>
+            <tr><td>prochaine feature 2</td><td>finie</td></tr>
+            <tr><td>prochaine feature 3</td><td>en cours</td></tr>
+            <tr><td>prochaine feature 3</td><td>pas commencée</td></tr>
+        </table>
+    </section>
+
+    <!--<section id="footer">design with scala | playframework | mongodb | coffescript | html5/css3</section>-->
+
+</body>
+</html>
